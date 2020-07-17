@@ -16,11 +16,11 @@ Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-c
    ng –version
 # 3. ESTRUCTURA ANGULAR
 El módulo es un contenedor de un grupo de componentes relacionados
-! [PROYECTO DE ESTRUCTURA] (https://user-images.githubusercontent.com/39227411/87810756-7af13b00-c82b-11ea-969a-a97d5e868cb0.jpg)
+![STRUCTURE PROJECT](https://user-images.githubusercontent.com/39227411/87810756-7af13b00-c82b-11ea-969a-a97d5e868cb0.jpg)
 
 ¿Cómo funciona Angular?
 
-! [esquema] (https://user-images.githubusercontent.com/39227411/87809518-85aad080-c829-11ea-9fac-e95f316ea58f.gif)
+![esquema](https://user-images.githubusercontent.com/39227411/87809518-85aad080-c829-11ea-9fac-e95f316ea58f.gif)
 # 4. Crear un proyecto, componentes, modelos y servicios.
   ng nuevo nombreProyecto
   ng g c nameComponent
