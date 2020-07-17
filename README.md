@@ -7,12 +7,14 @@ Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-c
 ![Firebase Study Jam DIA 1](https://user-images.githubusercontent.com/39227411/87808661-197b9d00-c828-11ea-8d35-f73133c0c367.jpg)
 ## Primero crea un nuevo proyecto en Angular
 # 1. Instale el nodo node.js org: instale la última versión estable
-  https://nodejs.org/en/download/
-  nodo –versión
-(Necesitamos una versión mínima que sea 6.9 para construir una aplicación angular). En este proyecto usamos NODE 10
-# 2. Necesitamos una herramienta NODE PACKAGE MANAGER
-(NPM) para instalar bibliotecas de terceros, una de estas bibliotecas es CLI ANGULAR, que significa interfaz de línea de comandos, es una herramienta de línea de comandos que usamos para crear un nuevo proyecto angular o generar algún código repetitivo, así como crear paquetes desplegables
+#### Node.JS es JavaScript en el lado del servidor. NPM es un gestor de paquetes para este entorno.
+  ### https://nodejs.org/en/download/
+  ### nodo –versión
+ En este proyecto usamos NODE 10 (Necesitamos una versión mínima que sea 6.9 para construir una aplicación angular).
+# 2. Necesitamos una herramienta NODE PACKAGE MANAGER NPM
+(NPM)  para instalar bibliotecas de terceros, una de estas bibliotecas es ANGULAR/CLI, que significa interfaz de línea de comandos, es una herramienta de línea de comandos que usamos para crear un nuevo proyecto angular o generar algún código repetitivo, así como crear paquetes desplegables
   ### npm install -g @ angular / cli
+  ### npm install -g @angular/cli@9.x.x 
   ### ng –version
 # 3. ESTRUCTURA ANGULAR
 El módulo es un contenedor de un grupo de componentes relacionados
@@ -22,14 +24,14 @@ El módulo es un contenedor de un grupo de componentes relacionados
 
 ![esquema](https://user-images.githubusercontent.com/39227411/87809518-85aad080-c829-11ea-9fac-e95f316ea58f.gif)
 # 4. Crear un proyecto, componentes, modelos y servicios.
- ng nuevo nombreProyecto
-ng g c nameComponent
- ng g s nameService
+ ### ng nuevo nombreProyecto
+ ### ng g c nameComponent
+ ### ng g s nameService
   
 # 5. Asegúrese de que nuestro proyecto funcione: tenemos un servidor de desarrollo en vivo que escucha en localhotsport 4200
- ##   ng serve -o
+ ###   ng serve -o
 # 6. En este proyecto utilizamos material angular:
- ##   ng add @ angular / material
+ ###   ng add @ angular / material
 
 ## Conexión con Firebase
 Requisito Instalar Node.js con nvm (Node Version Manager).
