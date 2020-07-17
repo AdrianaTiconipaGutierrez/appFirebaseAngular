@@ -76,7 +76,7 @@ Visual Studio Code
   
   - Dasboard de Firebase
   
-  -Agrgar Proyecto
+  - Agregar Proyecto
   
   ![AGREGAR PROYECTO](https://user-images.githubusercontent.com/39227411/87821025-2060da80-c83d-11ea-836b-4ed5d090139f.PNG)
   
@@ -95,18 +95,21 @@ Visual Studio Code
 
   
   - Agregamos Firebase a la app WEB
+  
  ![27](https://user-images.githubusercontent.com/39227411/87821809-72eec680-c83e-11ea-8c76-4041aa3cfb79.PNG)
 ![28](https://user-images.githubusercontent.com/39227411/87821810-73875d00-c83e-11ea-9565-e7df1cfa5719.PNG)
 ![29](https://user-images.githubusercontent.com/39227411/87821815-75512080-c83e-11ea-9342-257bdb5e3fea.PNG)
 
   - Copiamos la variable config  y lo copiamos en environment.ts
+  
   ![32](https://user-images.githubusercontent.com/39227411/87821825-77b37a80-c83e-11ea-94b5-8e423f56975b.PNG)
   
   
    #### src/app/environments/environment.ts
-    
-    ![environes](https://user-images.githubusercontent.com/39227411/87818632-e2fa4e00-c838-11ea-9f1e-7aa75597fcdc.PNG)
+   
+   ![wd](https://user-images.githubusercontent.com/39227411/87822006-c4975100-c83e-11ea-850d-d69b7cf87824.PNG)
 
+    
 
 # INSTALAMOS FIRESTORE Y STORAGE  EN ANGULAR
  
@@ -150,15 +153,15 @@ Import {AngualrFireModule} from @angular/fire/
 
 ## En Imports
 
-AngularFireModule.initializeApp(environment.firebaseConfig)
+- AngularFireModule.initializeApp(environment.firebaseConfig)
 
-AngularFireStorageModule
+- AngularFireStorageModule
 
-AngularFirestoreModule
+- AngularFirestoreModule
 
 ![IMPORTS](https://user-images.githubusercontent.com/39227411/87819837-e989c500-c83a-11ea-98f0-d029e6790663.PNG)
 
-En imports 
+En imports tenemos:
 
 ![IMPORET](https://user-images.githubusercontent.com/39227411/87819908-11792880-c83b-11ea-9e24-ae37ac949e9b.PNG)
 
@@ -172,26 +175,3 @@ PARA EL BUCKET EN PROVIDERS:  CONGIGURAMOS NUESTRO BUCKET EN FIREBASE
 
 ### Ojo importamos environment
 
-#  FIREBASE TOOLS
-
-CONEXION CON FIREBASE
-
-
-npm install -g firebase-tools
-inicio de sesión de firebase
-https://firebase.google.com/docs/cli#mac-linux-npm
-## Instalar fuego angular
-
-ng add @ angular / fuego
-## 1 Crear un proyecto en firebase
-## 2 aplicación registramos en firebase
-## 3 Agregamos en Medio Ambiente
-## Firebase CLI
-
-## Toma tu configuración web de Firebase
-NECESITAMOS instalar el nodo js
-## Ayuda adicional
-## Ayuda adicional
-## Ayuda adicional
-## Ayuda adicional
-## Ayuda adicional
