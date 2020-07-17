@@ -145,12 +145,15 @@ Modificamos el Archivo
 
 INYECTAMOS LAS 3 DEPENDENCIAS  DE FIRESTORE EN IMPORTS
 
-Import {AngualrFirestoreModule} from @angualr/fire/firestore
+### Import {AngualrFirestoreModule} from @angular/fire/firestore
 
-Import {AngualrFireStorageModule, StorageBuckket} from @angualr/fire/storage
+### Import {AngualrFireStorageModule, StorageBuckket} from @angular/fire/storage
+
+
+### Import {AngualrFireModule} from @angular/fire/
 ###//OJO EN VERSION FIRE 6 VAMBIO DE STORAGE BUCKET A BUCKET
 
-Import {AngualrFireModule} from @angular/fire/
+![IMPORTS](https://user-images.githubusercontent.com/39227411/87819837-e989c500-c83a-11ea-98f0-d029e6790663.PNG)
 
 
 ## En Imports
@@ -160,8 +163,6 @@ Import {AngualrFireModule} from @angular/fire/
 - AngularFireStorageModule
 
 - AngularFirestoreModule
-
-![IMPORTS](https://user-images.githubusercontent.com/39227411/87819837-e989c500-c83a-11ea-98f0-d029e6790663.PNG)
 
 En imports tenemos:
 
