@@ -4,7 +4,7 @@ Consulte: https://firebase.google.com/docs para obtener más información.
 
 Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-cli) versión 9.1.11.
 # Empecemos!!
-! [Firebase Study Jam DIA 1] (https://user-images.githubusercontent.com/39227411/87808661-197b9d00-c828-11ea-8d35-f73133c0c367.jpg)
+![Firebase Study Jam DIA 1](https://user-images.githubusercontent.com/39227411/87808661-197b9d00-c828-11ea-8d35-f73133c0c367.jpg)
 ## Primero crea un nuevo proyecto en Angular
 # 1. Instale el nodo node.js org: instale la última versión estable
   https://nodejs.org/en/download/
