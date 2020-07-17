@@ -10,6 +10,8 @@ Consulte: https://firebase.google.com/docs para obtener más información.
 
 ![Firebase Study Jam DIA 1](https://user-images.githubusercontent.com/39227411/87808661-197b9d00-c828-11ea-8d35-f73133c0c367.jpg)
 
+![Captura](https://user-images.githubusercontent.com/39227411/87821591-168ba700-c83e-11ea-9f7e-efb08cca2f3d.PNG)
+
 # CREAR PROYECTO EN ANGULAR
 
 ##  Instale el nodo node.js org: instale la última versión estable
@@ -77,25 +79,29 @@ Visual Studio Code
   -Agrgar Proyecto
   
   ![AGREGAR PROYECTO](https://user-images.githubusercontent.com/39227411/87821025-2060da80-c83d-11ea-836b-4ed5d090139f.PNG)
-
   
+![21](https://user-images.githubusercontent.com/39227411/87821729-56528e80-c83e-11ea-8d92-5cd3cf20fcb5.PNG)
+
+![23](https://user-images.githubusercontent.com/39227411/87821734-581c5200-c83e-11ea-848f-5f46edd6efdc.PNG)
+
   - HABILITAMOS HERRAMIENTAS: DATABASE Y STORAGE EN LA CONSOLA
   
-  ![21](https://user-images.githubusercontent.com/39227411/87821497-f4922480-c83d-11ea-84d4-0341fdca2c97.PNG)
-![23](https://user-images.githubusercontent.com/39227411/87821501-f5c35180-c83d-11ea-8948-7a64162e8af6.PNG)
-![24](https://user-images.githubusercontent.com/39227411/87821509-f78d1500-c83d-11ea-96c9-f40424e0cd5b.PNG)
-![25](https://user-images.githubusercontent.com/39227411/87821517-f8be4200-c83d-11ea-8e0a-28ef08a9c3d4.PNG)
-![26](https://user-images.githubusercontent.com/39227411/87821522-fa880580-c83d-11ea-915e-7cb3adb6f29f.PNG)
-![27](https://user-images.githubusercontent.com/39227411/87821527-fbb93280-c83d-11ea-9271-4cf06edaa246.PNG)
-![28](https://user-images.githubusercontent.com/39227411/87821535-fe1b8c80-c83d-11ea-9e8b-7ffc7f8bf62c.PNG)
-![29](https://user-images.githubusercontent.com/39227411/87821538-ff4cb980-c83d-11ea-8936-c72dfc8f9c50.PNG)
-![30](https://user-images.githubusercontent.com/39227411/87821541-007de680-c83e-11ea-97bf-f98d68cee6d0.PNG)
-![32](https://user-images.githubusercontent.com/39227411/87821547-01af1380-c83e-11ea-88d1-7175c57c9e01.PNG)
+
+![24](https://user-images.githubusercontent.com/39227411/87821775-666a6e00-c83e-11ea-8f98-e14acfcc7a96.PNG)
+
+![25](https://user-images.githubusercontent.com/39227411/87821783-679b9b00-c83e-11ea-9b65-ebc25d8aa256.PNG)
+
+![26](https://user-images.githubusercontent.com/39227411/87821787-68ccc800-c83e-11ea-8363-3c9a810651f8.PNG)
 
   
   - Agregamos Firebase a la app WEB
-  
+ ![27](https://user-images.githubusercontent.com/39227411/87821809-72eec680-c83e-11ea-8c76-4041aa3cfb79.PNG)
+![28](https://user-images.githubusercontent.com/39227411/87821810-73875d00-c83e-11ea-9565-e7df1cfa5719.PNG)
+![29](https://user-images.githubusercontent.com/39227411/87821815-75512080-c83e-11ea-9342-257bdb5e3fea.PNG)
+
   - Copiamos la variable config  y lo copiamos en environment.ts
+  ![32](https://user-images.githubusercontent.com/39227411/87821825-77b37a80-c83e-11ea-94b5-8e423f56975b.PNG)
+  
   
    #### src/app/environments/environment.ts
     
