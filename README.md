@@ -14,6 +14,12 @@ Consulte: https://firebase.google.com/docs para obtener más información.
 
 ![Captura](https://user-images.githubusercontent.com/39227411/87821591-168ba700-c83e-11ea-9f7e-efb08cca2f3d.PNG)
 
+### http://localhost:4200/home
+
+TRABAJAREMOS CON FIRESTORE, STORAGE, FUNCTIONS Y HOSTING
+
+https://github.com/AdrianaTiconipaGutierrez/firebaseFunctions
+
 # CREAR PROYECTO EN ANGULAR
 
 ##  Instale el nodo node.js org: instale la última versión estable
