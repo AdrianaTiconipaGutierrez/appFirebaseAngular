@@ -147,13 +147,14 @@ Modificamos el Archivo
 
 ### src/app/app.module.ts
 
-## Importamos  firestore module fire storage module
-
 INYECTAMOS LAS 3 DEPENDENCIAS  DE FIRESTORE EN IMPORTS
+//IMPORTACIONES DE ANGULAR FIRE
 
-### Import {AngualrFirestoreModule} from @angular/fire/firestore
+import {AngularFirestoreModule } from '@angular/fire/firestore';
+//OJO EN VERSION FIRE 6 VAMBIO DE STORAGE BUCKET A BUCKET StorageBucket
+import { AngularFireStorageModule, BUCKET} from '@angular/fire/storage';
+import {AngularFireModule } from '@angular/fire';
 
-### Import {AngualrFireStorageModule, StorageBuckket} from @angular/fire/storage
 
 
 ### Import {AngualrFireModule} from @angular/fire/
