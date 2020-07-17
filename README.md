@@ -35,7 +35,9 @@ El módulo es un contenedor de un grupo de componentes relacionados
 
 ## Conexión con Firebase
 Requisito Instalar Node.js con nvm (Node Version Manager).
+
 Cuando lo hagas, se instalarán automáticamente las herramientas de comando de npm.
+
 npm install -g firebase-tools
 inicio de sesión de firebase
 https://firebase.google.com/docs/cli#mac-linux-npm
