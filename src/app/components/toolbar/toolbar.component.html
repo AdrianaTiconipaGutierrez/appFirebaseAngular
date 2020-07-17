@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+    
+    <a [routerLink]="['/home']" routerLinkActive="router-link-active" >Firebase Study Jam</a>
+    <span class="fill-space"></span>
+    <div class="container-btn-add">
+        <button mat-stroked-button (click)="onNewProduct()">
+            <mat-icon>note_add</mat-icon>&nbsp; Add Product
+        </button>
+    
+    </div>
+
+    <a [routerLink]="['/products']" routerLinkActive="router-link-active" >
+        <button mat-button>PRODUCTS</button>
+    </a>
+
+</mat-toolbar>

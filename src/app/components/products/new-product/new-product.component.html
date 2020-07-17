@@ -1,0 +1,37 @@
+<!-- <p>new-product works!</p> -->
+<div class="new-product-container">
+<form action="" [formGroup]="newProductForm" (ngSubmit)="addNewProduct(newProductForm.value)">
+    <mat-form-field>
+        <mat-label>Title</mat-label>
+        <input matInput placeholder="Title Product" type="text" formControlName="titleProduct">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Description</mat-label>
+        <input matInput placeholder="Description Product" type="text" formControlName="descriptionProduct">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Price</mat-label>
+        <input matInput placeholder="Price Product" type="text" formControlName="priceProduct">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Score</mat-label>
+        <input matInput placeholder="Score Product" type="text" formControlName="starsProduct">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Stock</mat-label>
+        <input matInput placeholder="Stock Product" type="text" formControlName="stockProduct">
+    </mat-form-field>
+
+    <div class="container-input-file">
+        <label class="custom-file">
+            <input type="file" formControlName="imageProduct" (change)="handleImage($event)">
+            <mat-icon>cloud_upload</mat-icon> <span> UPLOAD IMAGE</span>
+        </label>
+    </div>
+    <div class="container-button">
+        <input type="submit" class="mat-flat-button" value="Save" [mat-dialog-close]="true">
+    </div>
+</form>
+</div>
+
+

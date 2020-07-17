@@ -1,0 +1,13 @@
+<!-- <p>modal works!</p> -->
+<h2>{{data.message}}</h2>
+
+<mat-dialog-content class="dialog-content">
+    <div *ngIf="data.content; else showNewForm" >
+        <app-edit-product [product]="data.content"></app-edit-product>
+    </div>
+    <ng-template #showNewForm>
+        <app-new-product></app-new-product>
+    </ng-template>
+    
+   
+</mat-dialog-content>

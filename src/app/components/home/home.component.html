@@ -1,0 +1,30 @@
+<p>home works!</p>
+<app-toolbar></app-toolbar>
+<div class="container">
+    <!-- OBSERVABLE HAY QUE SUSCRIBIRLO CON ASYNC -->
+<mat-card class="product-card" *ngFor="let product of products$ | async">
+    <mat-card-header>
+        <mat-card-title>
+            <a href="" [routerLink]="['/product',product.id]"  >
+            {{product.titleProduct}} 
+        </a>
+        </mat-card-title>
+        <mat-card-subtitle>{{product.descriptionProduct}} </mat-card-subtitle>
+    </mat-card-header>
+    <img matCardImage [src]="product.imageProduct">
+    <mat-card-content >
+         {{product.descriptionProduct}} 
+    </mat-card-content>
+    <mat-card-content>
+        {{product.priceProduct}} $
+   </mat-card-content>
+   <mat-card-content>
+    {{product.starsProduct}} 
+</mat-card-content>
+    <mat-card-footer>
+       Stock {{product.stockProduct}} 
+    </mat-card-footer>
+</mat-card>
+</div>
+<div >
+</div>

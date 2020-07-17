@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-angular-94580": {
+      "hosting": {
+        "firebaseAngular": [
+          "fir-angular-94580"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-angular-94580"
+  }
+}

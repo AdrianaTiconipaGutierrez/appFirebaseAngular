@@ -1,0 +1,20 @@
+<p>product works!</p>
+<app-toolbar></app-toolbar>
+<div class="container" *ngIf=" product$ | async as product">
+    <mat-card class="product-card" >
+        
+        <img class="align-center" matCardImage [src]="product.imageProduct">
+        <mat-card-content>
+            <mat-card-title>
+                <a href="">
+                    {{product.titleProduct}}
+                </a>
+            </mat-card-title>
+            <p>
+                {{product.descriptionProduct}}
+            </p>
+
+        </mat-card-content>
+
+    </mat-card>
+</div>

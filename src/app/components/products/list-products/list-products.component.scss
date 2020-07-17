@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+
+  }
+  
+  th {
+    color: rgb(122, 3, 126);
+    background-color: rgba(10, 193, 171, 0.857);
+  }
+  td{
+    color: rgb(122, 3, 126);
+    background-color: rgb(245, 245, 245);
+  }
+  .mat-form-field{
+    font-size: 1rem ;
+    width: 98%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1rem;
+    color: chartreuse;
+  }
+
+  mat-paginator{
+    color: rgb(142, 5, 147);
+    background-color: rgba(19, 130, 119, 0.843);
+  }
+  .container-btn-add
+  {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 1rem -0.6rem;
+    button{
+      width: 25%;
+      color: rgb(243, 217, 221) ;
+      background-color: purple;
+      cursor: pointer;
+    }
+  }
+  .mat-stroked-button{
+    color: rgb(0, 122, 128);
+  }

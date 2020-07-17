@@ -1,0 +1,26 @@
+.mat-card {
+    background: purple;
+    color: seashell;
+    width: 50%;
+    margin: 1% auto;
+    padding: 2%;
+
+    .mat-card-content {
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+        p.content {
+            text-align: initial;
+        }
+    }
+    img {
+        
+        border-radius: 6px;
+    }
+    .align-center{
+        text-align: center;
+        clear: both;
+        display: block;
+        margin: 6px auto;
+    }
+}

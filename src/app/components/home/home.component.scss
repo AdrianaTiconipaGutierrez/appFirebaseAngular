@@ -1,0 +1,35 @@
+.container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    justify-content: center;
+
+mat-card-content{
+    background-color: rgb(133, 38, 184);
+    color: rgb(225, 250, 246);
+    border-radius: 10px;
+    padding: 10px;
+}
+    a{
+        cursor: pointer ;
+        color: rgb(133, 38, 184);
+        text-decoration: none;
+    }
+    .product-card {
+        background-color: rgb(13, 158, 165) ;
+        color: white;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 50%;
+        img {
+            height: 200px;
+        }
+        p.content {
+            
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
