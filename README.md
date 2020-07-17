@@ -10,6 +10,8 @@ Consulte: https://firebase.google.com/docs para obtener más información.
 
 ![Firebase Study Jam DIA 1](https://user-images.githubusercontent.com/39227411/87808661-197b9d00-c828-11ea-8d35-f73133c0c367.jpg)
 
+## App Web
+
 ![Captura](https://user-images.githubusercontent.com/39227411/87821591-168ba700-c83e-11ea-9f7e-efb08cca2f3d.PNG)
 
 # CREAR PROYECTO EN ANGULAR
