@@ -8,7 +8,7 @@ Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-c
 ## Primero crea un nuevo proyecto en Angular
 # 1. Instale el nodo node.js org: instale la última versión estable
   https://nodejs.org/en/download/
-  Nodo –versión
+  nodo –versión
 (Necesitamos una versión mínima que sea 6.9 para construir una aplicación angular). En este proyecto usamos NODE 10
 # 2. Necesitamos una herramienta NODE PACKAGE MANAGER
 (NPM) para instalar bibliotecas de terceros, una de estas bibliotecas es CLI ANGULAR, que significa interfaz de línea de comandos, es una herramienta de línea de comandos que usamos para crear un nuevo proyecto angular o generar algún código repetitivo, así como crear paquetes desplegables
