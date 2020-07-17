@@ -26,4 +26,24 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # Let's Start
+## First Create a new Project in Angular
 
+Install node  node.js org  > 6.9 
+noode –version 
+npm install -g @angular/cli 
+Ng –version
+Ng new nombreProjecto
+Ng serve –o
+STRUCTURE OF ANGULAR PROJECT
+ng g c course 
+Ng g s email    
+
+ANGULAR MATERIAL
+ng add @angular/material
+
+WE need install node js 
+## Further help
+## Further help
+## Further help
+## Further help
+## Further help
