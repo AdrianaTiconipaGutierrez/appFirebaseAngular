@@ -12,8 +12,8 @@ Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-c
 (Necesitamos una versión mínima que sea 6.9 para construir una aplicación angular). En este proyecto usamos NODE 10
 # 2. Necesitamos una herramienta NODE PACKAGE MANAGER
 (NPM) para instalar bibliotecas de terceros, una de estas bibliotecas es CLI ANGULAR, que significa interfaz de línea de comandos, es una herramienta de línea de comandos que usamos para crear un nuevo proyecto angular o generar algún código repetitivo, así como crear paquetes desplegables
-   npm install -g @ angular / cli
-   ng –version
+  ## npm install -g @ angular / cli
+  ## ng –version
 # 3. ESTRUCTURA ANGULAR
 El módulo es un contenedor de un grupo de componentes relacionados
 ![STRUCTURE PROJECT](https://user-images.githubusercontent.com/39227411/87810756-7af13b00-c82b-11ea-969a-a97d5e868cb0.jpg)
@@ -22,14 +22,14 @@ El módulo es un contenedor de un grupo de componentes relacionados
 
 ![esquema](https://user-images.githubusercontent.com/39227411/87809518-85aad080-c829-11ea-9fac-e95f316ea58f.gif)
 # 4. Crear un proyecto, componentes, modelos y servicios.
-  ng nuevo nombreProyecto
-  ng g c nameComponent
-  ng g s nameService
+ ## ng nuevo nombreProyecto
+ ## ng g c nameComponent
+ ## ng g s nameService
   
 # 5. Asegúrese de que nuestro proyecto funcione: tenemos un servidor de desarrollo en vivo que escucha en localhotsport 4200
-    ng serve -o
+ ##   ng serve -o
 # 6. En este proyecto utilizamos material angular:
-    ng add @ angular / material
+ ##   ng add @ angular / material
 
 ## Conexión con Firebase
 Requisito Instalar Node.js con nvm (Node Version Manager).
