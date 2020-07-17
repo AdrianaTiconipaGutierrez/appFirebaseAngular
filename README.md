@@ -175,6 +175,7 @@ PARA EL BUCKET EN PROVIDERS:  CONGIGURAMOS NUESTRO BUCKET EN FIREBASE
   Provide: StorageBucket, useValue ‘URL DE STORAGE’
   
   ![storage](https://user-images.githubusercontent.com/39227411/87820030-4d13f280-c83b-11ea-81fa-827947bb48b5.PNG)
-![imagen](https://user-images.githubusercontent.com/39227411/87822776-0d033e80-c840-11ea-9240-c6304bac36dc.png)
+
 ### Ojo importamos environment
 
+![imagen](https://user-images.githubusercontent.com/39227411/87822776-0d033e80-c840-11ea-9240-c6304bac36dc.png)
