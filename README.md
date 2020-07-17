@@ -1,20 +1,23 @@
-# Aplicación web con Angular y firebase
+# APLICACION WEB CON ANGULAR Y FIREBASE
+
 En este proyecto implementaremos las siguientes herramientas de Firebase:  Firestore, Firebase Storage, Cloud Functions and Hosting
 
 Consulte: https://firebase.google.com/docs para obtener más información.
 
-Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-cli) versión 9.1.11.
+### Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-cli) versión 9.1.11.
 
-# Empecemos!!
+# EMPECEMOS!!!!
 
 ![Firebase Study Jam DIA 1](https://user-images.githubusercontent.com/39227411/87808661-197b9d00-c828-11ea-8d35-f73133c0c367.jpg)
+
 # CREAR PROYECTO EN ANGULAR
+
 ##  Instale el nodo node.js org: instale la última versión estable
 
 Node.JS es JavaScript en el lado del servidor. NPM es un gestor de paquetes para este entorno.
 
-  ### https://nodejs.org/en/download/
-  ### nodo –versión
+-  ### https://nodejs.org/en/download/
+-  ### nodo –versión
   
  En este proyecto usamos NODE 10 (Necesitamos una versión mínima que sea 6.9 para construir una aplicación angular).
  
