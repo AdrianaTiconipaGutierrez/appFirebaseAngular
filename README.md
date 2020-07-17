@@ -24,11 +24,12 @@ Node.JS es JavaScript en el lado del servidor. NPM es un gestor de paquetes para
 ##  Necesitamos una herramienta NODE PACKAGE MANAGER NPM
 (NPM)  para instalar bibliotecas de terceros, una de estas bibliotecas es ANGULAR/CLI, que significa interfaz de línea de comandos, es una herramienta de línea de comandos que usamos para crear un nuevo proyecto angular o generar algún código repetitivo, así como crear paquetes desplegables
 
-  ### npm install -g @ angular / cli
-  ### npm install -g @angular/cli@9.x.x 
-  ### ng –version
+ - ### npm install -g @ angular / cli
+ - ### npm install -g @angular/cli@9.x.x 
+ - ### ng –version
  
 #  ESTRUCTURA ANGULAR
+
 El módulo es un contenedor de un grupo de componentes relacionados
 
 ![STRUCTURE PROJECT](https://user-images.githubusercontent.com/39227411/87810756-7af13b00-c82b-11ea-969a-a97d5e868cb0.jpg)
@@ -41,17 +42,19 @@ El módulo es un contenedor de un grupo de componentes relacionados
 
 ##  Crear un proyecto, componentes, modelos y servicios.
 
- ### ng new nombreProyecto
- ### ng g c nameComponent
- ### ng g s nameService
+- ### ng new nombreProyecto
+- ### ng g c nameComponent
+- ### ng g s nameService
   
-##  Asegúrese de que nuestro proyecto funcione: tenemos un servidor de desarrollo en vivo que escucha en localhotsport 4200
+##  Verificar el proyecto funciona en Angular
 
- ###   ng serve -o
+Tenemos un servidor de desarrollo en vivo que escucha en localhotsport 4200
+
+- ###   ng serve -o
 
 ##  En este proyecto utilizamos material angular:
 
- ###   ng add @ angular / material
+- ###   ng add @ angular / material
  
  Para mas informacion visitar: https://material.angular.io/
  
@@ -61,17 +64,34 @@ Visual Studio Code
 
 # CONEXION CON FIREBASE
 
-Requisito Instalar Node.js con nvm (Node Version Manager).
+- Requisito Instalar Node.js con nvm (Node Version Manager).
 
-Cuando lo hagas, se instalarán automáticamente las herramientas de comando de npm.
+- Cuando lo hagas, se instalarán automáticamente las herramientas de comando de npm.
 
-## Creacion de un Proyecto de Firebase
+## Creación de un Proyecto de Firebase
 
   - Consola de Firebase
   
   - Dasboard de Firebase
   
-  ### HABILITAMOS HERRAMIENTAS: DATABASE Y STORAGE 
+  -Agrgar Proyecto
+  
+  ![AGREGAR PROYECTO](https://user-images.githubusercontent.com/39227411/87821025-2060da80-c83d-11ea-836b-4ed5d090139f.PNG)
+
+  
+  - HABILITAMOS HERRAMIENTAS: DATABASE Y STORAGE EN LA CONSOLA
+  
+  ![21](https://user-images.githubusercontent.com/39227411/87821497-f4922480-c83d-11ea-84d4-0341fdca2c97.PNG)
+![23](https://user-images.githubusercontent.com/39227411/87821501-f5c35180-c83d-11ea-8948-7a64162e8af6.PNG)
+![24](https://user-images.githubusercontent.com/39227411/87821509-f78d1500-c83d-11ea-96c9-f40424e0cd5b.PNG)
+![25](https://user-images.githubusercontent.com/39227411/87821517-f8be4200-c83d-11ea-8e0a-28ef08a9c3d4.PNG)
+![26](https://user-images.githubusercontent.com/39227411/87821522-fa880580-c83d-11ea-915e-7cb3adb6f29f.PNG)
+![27](https://user-images.githubusercontent.com/39227411/87821527-fbb93280-c83d-11ea-9271-4cf06edaa246.PNG)
+![28](https://user-images.githubusercontent.com/39227411/87821535-fe1b8c80-c83d-11ea-9e8b-7ffc7f8bf62c.PNG)
+![29](https://user-images.githubusercontent.com/39227411/87821538-ff4cb980-c83d-11ea-8936-c72dfc8f9c50.PNG)
+![30](https://user-images.githubusercontent.com/39227411/87821541-007de680-c83e-11ea-97bf-f98d68cee6d0.PNG)
+![32](https://user-images.githubusercontent.com/39227411/87821547-01af1380-c83e-11ea-88d1-7175c57c9e01.PNG)
+
   
   - Agregamos Firebase a la app WEB
   
