@@ -8,8 +8,8 @@ Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-c
 # Empecemos!!
 
 ![Firebase Study Jam DIA 1](https://user-images.githubusercontent.com/39227411/87808661-197b9d00-c828-11ea-8d35-f73133c0c367.jpg)
-# Crear un proyecto en Angular
-## 1. Instale el nodo node.js org: instale la última versión estable
+# CREAR PROYECTO EN ANGULAR
+##  Instale el nodo node.js org: instale la última versión estable
 
 Node.JS es JavaScript en el lado del servidor. NPM es un gestor de paquetes para este entorno.
 
@@ -18,14 +18,14 @@ Node.JS es JavaScript en el lado del servidor. NPM es un gestor de paquetes para
   
  En este proyecto usamos NODE 10 (Necesitamos una versión mínima que sea 6.9 para construir una aplicación angular).
  
-## 2. Necesitamos una herramienta NODE PACKAGE MANAGER NPM
+##  Necesitamos una herramienta NODE PACKAGE MANAGER NPM
 (NPM)  para instalar bibliotecas de terceros, una de estas bibliotecas es ANGULAR/CLI, que significa interfaz de línea de comandos, es una herramienta de línea de comandos que usamos para crear un nuevo proyecto angular o generar algún código repetitivo, así como crear paquetes desplegables
 
   ### npm install -g @ angular / cli
   ### npm install -g @angular/cli@9.x.x 
   ### ng –version
  
-# 3. ESTRUCTURA ANGULAR
+#  ESTRUCTURA ANGULAR
 El módulo es un contenedor de un grupo de componentes relacionados
 
 ![STRUCTURE PROJECT](https://user-images.githubusercontent.com/39227411/87810756-7af13b00-c82b-11ea-969a-a97d5e868cb0.jpg)
@@ -36,17 +36,17 @@ El módulo es un contenedor de un grupo de componentes relacionados
 
 # CREACION DE UN NUEVO PROYECTO EN ANGULAR  
 
-## 4. Crear un proyecto, componentes, modelos y servicios.
+##  Crear un proyecto, componentes, modelos y servicios.
 
  ### ng new nombreProyecto
  ### ng g c nameComponent
  ### ng g s nameService
   
-## 5. Asegúrese de que nuestro proyecto funcione: tenemos un servidor de desarrollo en vivo que escucha en localhotsport 4200
+##  Asegúrese de que nuestro proyecto funcione: tenemos un servidor de desarrollo en vivo que escucha en localhotsport 4200
 
  ###   ng serve -o
 
-## 6. En este proyecto utilizamos material angular:
+##  En este proyecto utilizamos material angular:
 
  ###   ng add @ angular / material
  
@@ -64,15 +64,17 @@ Cuando lo hagas, se instalarán automáticamente las herramientas de comando de 
 
 ## Creacion de un Proyecto de Firebase
 
-  Consola de Firebase
+  - Consola de Firebase
   
-  Dasboard de Firebase
+  - Dasboard de Firebase
   
-  Agregamos Firebase a la app WEB
+  ### HABILITAMOS HERRAMIENTAS: DATABASE Y STORAGE 
   
-  Copiamos la variable config  y lo copiamos en environment.ts
+  - Agregamos Firebase a la app WEB
   
-    src/app/environments/environment.ts
+  - Copiamos la variable config  y lo copiamos en environment.ts
+  
+   #### src/app/environments/environment.ts
     
     ![environes](https://user-images.githubusercontent.com/39227411/87818632-e2fa4e00-c838-11ea-9f1e-7aa75597fcdc.PNG)
 
@@ -90,20 +92,20 @@ https://github.com/angular/angularfire
 ## Como instalamos? 
 
 
-npm install firebase @angular/fire --save
+### npm install firebase @angular/fire --save
 
-ng add @angular/fire
+### ng add @angular/fire
 
 Escogemos nuestro Proyecto
 
-### Instala la version "@angular/fire": "^6.0.2"
+#### Instala la version "@angular/fire": "^6.0.2"
 
 
 ## Y empezamos las importaciones en app.module.ts
 
 Modificamos el Archivo 
 
-src/app/app.module.ts
+### src/app/app.module.ts
 
 ## Importamos  firestore module fire storage module
 
@@ -116,21 +118,34 @@ Import {AngualrFireStorageModule, StorageBuckket} from @angualr/fire/storage
 
 Import {AngualrFireModule} from @angular/fire/
 
+
 ## En Imports
 
 AngularFireModule.initializeApp(environment.firebaseConfig)
 
 AngularFireStorageModule
 
-AngularFirestoreModule,
+AngularFirestoreModule
+
+![IMPORTS](https://user-images.githubusercontent.com/39227411/87819837-e989c500-c83a-11ea-98f0-d029e6790663.PNG)
+
+En imports 
+
+![IMPORET](https://user-images.githubusercontent.com/39227411/87819908-11792880-c83b-11ea-9e24-ae37ac949e9b.PNG)
 
 ## Para Storage
 
 PARA EL BUCKET EN PROVIDERS:  CONGIGURAMOS NUESTRO BUCKET EN FIREBASE
 
   Provide: StorageBucket, useValue ‘URL DE STORAGE’
+  
+  ![storage](https://user-images.githubusercontent.com/39227411/87820030-4d13f280-c83b-11ea-81fa-827947bb48b5.PNG)
 
-###Ojo importamos environment
+### Ojo importamos environment
+
+#  FIREBASE TOOLS
+
+CONEXION CON FIREBASE
 
 
 npm install -g firebase-tools
