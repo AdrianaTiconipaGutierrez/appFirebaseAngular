@@ -179,3 +179,6 @@ PARA EL BUCKET EN PROVIDERS:  CONGIGURAMOS NUESTRO BUCKET EN FIREBASE
 ### Ojo importamos environment
 
 ![imagen](https://user-images.githubusercontent.com/39227411/87822776-0d033e80-c840-11ea-9240-c6304bac36dc.png)
+
+# CONTINUAMOS CON STORAGE
+
