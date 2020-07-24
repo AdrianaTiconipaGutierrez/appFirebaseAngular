@@ -189,5 +189,64 @@ PARA EL BUCKET EN PROVIDERS:  CONGIGURAMOS NUESTRO BUCKET EN FIREBASE
 
 
 # CONTINUAMOS CON STORAGE
-# CLOUD FUNCTIONS
+Cloud Storage para Firebase es un servicio de almacenamiento de objetos potente, simple y rentable construido para la escala de Google.
+## 1.  Firebase console
+selecciona Storage y, luego, haz clic en Comenzar
+## 2. Agrega la URL del depósito a la app
+1. Ve a tu panel de Storage en Firebase console.
+
+2. Haz clic en la pestaña Archivos y, luego, busca en el encabezado del visor de archivos.
+
+3. Copia la URL al portapapeles. Por lo general, tiene el formato project-id.appspot.com.
+
+4. Agrega el atributo firebaseConfig con la URL del depósito al objeto storageBucket de tu app de la siguiente manera:
+
+Inicializar firebase
+```
+  firebaseConfig : {
+    apiKey: "AIzaSyA2Whqyf42ZcSWgfj_R5KaOuTcUU2Pfn9E",
+    authDomain: "fir-angular-94580.firebaseapp.com",
+    databaseURL: "https://fir-angular-94580.firebaseio.com",
+    projectId: "fir-angular-94580",
+    storageBucket: "fir-angular-94580.appspot.com",
+    messagingSenderId: "548074631601",
+    appId: "1:548074631601:web:9a4f57a23e987e98980d90",
+    measurementId: "G-2K0KMRT5XY"
+  }
+```
+app.module.ts
+// Obtener archivo
+usamos eventos(change) cuando a cambaido el input 
+let file= e.target.files[0];
+//Create a storage ref: Creamos uan referencia de alamacenamiento 
+let storageRef = firebase.storage().ref('folder_name/'+file.name');
+// Subir el archivo a firebase storage
+let task = storageRef.put(file); ///PUT SUBIRA EL ARCHIVO A STORAGE
+
+
+# Crea una referencia
+A fin de subir o descargar archivos, borrar archivos, obtener o actualizar metadatos, debes crear una referencia al archivo con el que deseas trabajar.
+
+```
+Obtenga una referencia al servicio de almacenamiento, que se utiliza para crear referencias en su depósito de almacenamiento
+var storage = firebase.storage();
+// Crea una referencia de almacenamiento desde nuestro servicio de almacenamiento
+var storageRef = storage.ref();
+```
+# Propiedades de las referencias
+```
+// La ruta de referencia es: 'images / space.jpg'
+// Esto es análogo a una ruta de archivo en el disco
+
+spaceRef.fullPath;
+
+// El nombre de referencia es el último segmento de la ruta completa: 'space.jpg'
+// Esto es análogo al nombre del archivo
+
+spaceRef.name;
+
+// El depósito de referencia es el nombre del depósito de almacenamiento donde se almacenan los archivos
+
+spaceRef.bucket;
+```
 
