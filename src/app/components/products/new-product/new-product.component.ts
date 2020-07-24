@@ -26,7 +26,7 @@ export class NewProductComponent implements OnInit {
   }
   addNewProduct(data:ProductI){
     console.log('PRUEBA DATOS',data);
-    this.productS.preAddAndUpdateProduct(data,this.image);
+    this.productS.uploadImage(data,this.image);
 
   }
   handleImage(event:any):void{

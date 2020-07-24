@@ -59,11 +59,7 @@ public editProduct(product:ProductI, newImage?: FileI){
  
  }
  
- //METODO INTERMEDAIDOR
- public preAddAndUpdateProduct(product:ProductI,image:FileI):void{
-  this.uploadImage(product,image);
- }
- 
+
  //CREAMOS DOS PROCESO SUBIR LAS IMAGENES Y FIREABSE NOS DA UNA URL Y ESO GUARDAMOS
  private saveProduct(product:ProductI){
    console.log('PRODUCTO', product)
@@ -86,7 +82,7 @@ public editProduct(product:ProductI, newImage?: FileI){
  
  }
  //METODO PARA SUBIR LA IMAGEN 1
- private uploadImage(product:ProductI, image:FileI){
+ uploadImage(product:ProductI, image:FileI){
 //FICHERO
  this.filePath =`images/${image.name}`;
  const fileRef=this.storage.ref(this.filePath);
